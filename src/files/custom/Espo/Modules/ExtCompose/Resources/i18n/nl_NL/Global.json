@@ -1,0 +1,12 @@
+{
+    "labels": {
+        "selectTemplate": "Sjabloon selecteren",
+        "templateBody": "Modify de body",
+        "composeTemplate": "Compose template",
+        "composePdf": "Compose PDF"
+    },
+    "messages":{
+        "confirmDiscardChanges": "Wijzigingen verwerpen?",
+        "confirmReplaceBody": "Huidige inhoud vervangen?"
+    }
+}

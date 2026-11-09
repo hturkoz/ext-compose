@@ -1,0 +1,12 @@
+{
+    "labels": {
+        "selectTemplate": "Selectionnez un template",
+        "templateBody": "Modifiez le body",
+        "composeTemplate": "Compose template",
+        "composePdf": "Composer PDF"
+    },
+    "messages":{
+        "confirmDiscardChanges": "Abandonner les modifications ?",
+        "confirmReplaceBody": "Remplacer le contenu actuel ?"
+    }
+}

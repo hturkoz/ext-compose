@@ -1,9 +1,9 @@
 {
-    "module": "{@name}",
-    "name": "{@nameLabel}",
-    "description": "{@description}",
-    "author": "{@author}",
-    "bundled": {@bundled},
+    "module": "Ext-compose",
+    "name": "ext-compose",
+    "description": "Compose.",
+    "author": "Hanefi Turkoz",
+    "bundled": true,
     "acceptableVersions": [
         ">=9.3.0"
     ],

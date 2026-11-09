@@ -1,0 +1,12 @@
+[
+	{  
+        "route": "/Template/:id/ComposePdfFactory",  
+        "method": "post",  
+        "actionClassName": "Espo\\Modules\\ExtCompose\\Api\\Template\\ComposePdfFactory"  
+    },
+    {  
+        "route": "/Template/:id/ComposePdfPrepare",  
+        "method": "post",  
+        "actionClassName": "Espo\\Modules\\ExtCompose\\Api\\Template\\ComposePdfPrepare"  
+    }
+]

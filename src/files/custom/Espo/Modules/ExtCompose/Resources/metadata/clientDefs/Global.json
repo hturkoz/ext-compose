@@ -1,0 +1,8 @@
+{
+    "viewSetupHandlers": {
+        "record/detail": [
+            "__APPEND__",
+            "ext-compose:handlers/record/detail/compose-template-handler"
+        ]
+    }
+}
