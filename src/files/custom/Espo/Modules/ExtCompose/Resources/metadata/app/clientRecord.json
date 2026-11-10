@@ -1,0 +1,9 @@
+{
+    "panels": {
+        "activities": {
+            "view": "ext-compose:views/record/panels/activities",
+            "label": "Activities",
+            "name": "activities"
+        }
+    }
+}

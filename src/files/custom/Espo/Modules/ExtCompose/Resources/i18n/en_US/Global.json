@@ -3,10 +3,21 @@
         "selectTemplate": "Select template",
         "templateBody": "Modify the body",
         "composeTemplate": "Compose template",
-        "composePdf": "Compose PDF"
+        "composePdf": "Compose PDF",
+        "composeSms": "Compose SMS",
+        "composeSmsPhoneNumber": "Phone number",
+        "composeSmsSelectPhoneNumber": "Select a number",
+        "composeSmsEnterPhoneNumber": "Enter a phone number",
+        "composeSmsMessage": "Message",
+        "composeSmsEnterMessage": "Enter your message",
+        "composeSmsCharacters": "characters",
+        "composeSmsMobileOnly": "Only mobile phone numbers can receive SMS messages"
     },
-    "messages":{
+    "messages": {
         "confirmDiscardChanges": "Discard changes?",
-        "confirmReplaceBody": "Replace current content?"
+        "confirmReplaceBody": "Replace current content?",
+        "composeSmsPhoneNumberRequired": "Phone number is required",
+        "composeSmsMessageRequired": "Message is required",
+        "composeSmsSent": "SMS sent"
     }
 }

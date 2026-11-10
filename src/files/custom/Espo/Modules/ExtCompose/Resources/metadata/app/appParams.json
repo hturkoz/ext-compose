@@ -1,0 +1,5 @@
+{
+    "smsEnabled": {
+        "className": "Espo\\Modules\\ExtCompose\\Classes\\AppParams\\SmsEnabled"
+    }
+}

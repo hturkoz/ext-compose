@@ -1,5 +1,4 @@
 <?php
-
 /************************************************************************
  * This file is for EspoCRM.
  *
@@ -36,12 +35,12 @@ use Espo\Core\Api\Response;
 use Espo\Core\Api\ResponseComposer;  
 use Espo\Core\Exceptions\BadRequest; 
 
-use Espo\Modules\ExtCompose\Tools\Template\ComposePdfForClient;  
+use Espo\Modules\ExtCompose\Tools\Pdf\ComposePdf;  
 
 class ComposePdfPrepare implements Action  
 {  
     public function __construct(
-        private ComposePdfForClient $composePdfForClient
+        private ComposePdf $composePdf
     ) {}  
   
     public function process(Request $request): Response  
@@ -57,7 +56,7 @@ class ComposePdfPrepare implements Action
         $parentType = $data->parentType ?? null;  
         $parentId = $data->parentId ?? null;  
   
-        $result = $this->composePdfForClient->prepareTemplate($id, $parentType, $parentId);  
+        $result = $this->composePdf->prepareTemplate($id, $parentType, $parentId);  
   
         return ResponseComposer::json($result);  
     }

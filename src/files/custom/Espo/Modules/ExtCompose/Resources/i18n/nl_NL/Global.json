@@ -1,12 +1,23 @@
 {
     "labels": {
         "selectTemplate": "Sjabloon selecteren",
-        "templateBody": "Modify de body",
-        "composeTemplate": "Compose template",
-        "composePdf": "Compose PDF"
+        "templateBody": "Inhoud wijzigen",
+        "composeTemplate": "Sjabloon opstellen",
+        "composePdf": "PDF opstellen",
+        "composeSms": "SMS opstellen",
+        "composeSmsPhoneNumber": "Telefoonnummer",
+        "composeSmsSelectPhoneNumber": "Een nummer selecteren",
+        "composeSmsEnterPhoneNumber": "Een telefoonnummer invoeren",
+        "composeSmsMessage": "Bericht",
+        "composeSmsEnterMessage": "Uw bericht invoeren",
+        "composeSmsCharacters": "tekens",
+        "composeSmsMobileOnly": "Alleen mobiele telefoonnummers kunnen een SMS ontvangen"
     },
-    "messages":{
+    "messages": {
         "confirmDiscardChanges": "Wijzigingen verwerpen?",
-        "confirmReplaceBody": "Huidige inhoud vervangen?"
+        "confirmReplaceBody": "Huidige inhoud vervangen?",
+        "composeSmsPhoneNumberRequired": "Het telefoonnummer is verplicht",
+        "composeSmsMessageRequired": "Het bericht is verplicht",
+        "composeSmsSent": "SMS verzonden"
     }
 }

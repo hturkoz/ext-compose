@@ -8,5 +8,15 @@
         "route": "/Template/:id/ComposePdfPrepare",  
         "method": "post",  
         "actionClassName": "Espo\\Modules\\ExtCompose\\Api\\Template\\ComposePdfPrepare"  
+    },
+    {
+        "route": "/Sms/ComposeSms/mobileNumbers",
+        "method": "get",
+        "actionClassName": "Espo\\Modules\\ExtCompose\\Api\\Sms\\GetMobileNumbers"
+    },
+    {
+        "route": "/Sms/ComposeSms/send",
+        "method": "post",
+        "actionClassName": "Espo\\Modules\\ExtCompose\\Api\\Sms\\SendSms"
     }
 ]
